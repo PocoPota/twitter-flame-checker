@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X 炎上チェッカー</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      min-width: 250px;
+    }
+    h2 {
+      color: #333;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #666;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+    .settings-btn {
+      background-color: #1da1f2;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .settings-btn:hover {
+      background-color: #1991db;
+    }
+    .status {
+      font-size: 12px;
+      color: #999;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>🔥 X 炎上チェッカー</h2>
+  <p>Xの投稿入力欄で、AIが炎上リスクをリアルタイムでチェックします。</p>
+  
+  <button class="settings-btn" id="settingsBtn">⚙️ APIキー設定</button>
+  
+  <div class="status" id="status">
+    APIキーの設定が必要です
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
